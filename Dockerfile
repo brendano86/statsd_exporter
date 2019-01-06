@@ -1,4 +1,4 @@
-FROM  quay.io/prometheus/busybox:latest
+FROM  swapnil18/docker-arm-busybox:latest
 LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY statsd_exporter /bin/statsd_exporter
